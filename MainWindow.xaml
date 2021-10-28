@@ -1,0 +1,25 @@
+﻿<Window x:Class="wps_application_pratcice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wps_application_pratcice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock>HELLO <Bold>PROGRAMMER</Bold> WELOCOME TO MY YOUTUBE <Italic>CHANNEL</Italic>
+        <LineBreak/>
+         <Bold>GO TO MY YOUTUBE CHANNEL </Bold> <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"
+                                               NavigateUri="https://www.youtube.com/channel/UCc1XVBxEDXsxi3_-RVB4wjw">CODE WITH AHAD</Hyperlink>
+        </TextBlock>
+        <TextBlock TextWrapping="Wrap" Foreground="SandyBrown"><Bold>INTRODUCTION TO PYTHON</Bold>
+        <LineBreak></LineBreak>
+            <LineBreak></LineBreak>
+        <Bold>Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of 
+            significant indentation. 
+            <Span Foreground="Black">PYTHON</Span>
+            Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and 
+            large-scale projects"</Bold>
+        </TextBlock>
+    </StackPanel>
+</Window>
